@@ -23,7 +23,6 @@ export LC_ALL="C"
 export DATE=$(sed "s/://g" <<< $(date +%y%m%d_%T))
 export FOX_VERSION="R11.1"
 export FOX_BUILD_TYPE="Unofficial"
-export FOX_VARIANT="4.4-A12-$DATE"
 export FOX_BUGGED_AOSP_ARB_WORKAROUND="1510672800" # Tue Nov 14 15:20:00 GMT 2017
 export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
 export OF_SCREEN_H=2160
@@ -38,7 +37,7 @@ export OF_NO_MIUI_PATCH_WARNING=1
 export OF_OTA_RES_DECRYPT=1
 export OF_NO_SAMSUNG_SPECIAL=1
 export FOX_ENABLE_APP_MANAGER=1
-export OF_MAINTAINER="Shekhawat2"
+export OF_MAINTAINER="zacky"
 export OF_MAINTAINER_AVATAR="device/xiaomi/whyred/shekhawat2.png"
 
 # Quick Backup Defaults
